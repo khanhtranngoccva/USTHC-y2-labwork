@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "USTHC_y2_labwork_01_e3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "USTHC_y2_labwork_01_e1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USTHC_y2_labwork_01_e1-Debug-f723c1edf26d3b5b18c9.json",
+					"name" : "USTHC_y2_labwork_01_e1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USTHC_y2_labwork_01_e2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USTHC_y2_labwork_01_e2-Debug-9bd499b26c95e658fbae.json",
+					"name" : "USTHC_y2_labwork_01_e2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USTHC_y2_labwork_01_e3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USTHC_y2_labwork_01_e3-Debug-c0a395679240c5d340e9.json",
+					"name" : "USTHC_y2_labwork_01_e3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projects/USTHC-y2-labwork/cmake-build-debug",
+		"source" : "C:/Projects/USTHC-y2-labwork"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
