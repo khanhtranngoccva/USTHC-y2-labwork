@@ -17,7 +17,10 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -29,12 +32,15 @@
 					[
 						0
 					],
-					"name" : "USTHC_y2_labwork_01_e3",
+					"name" : "USTHC_y2_labwork_02_e3",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -43,22 +49,43 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "USTHC_y2_labwork_01_e1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-USTHC_y2_labwork_01_e1-Debug-f723c1edf26d3b5b18c9.json",
+					"jsonFile" : "target-USTHC_y2_labwork_01_e1-Debug-816c7a39d6678a36532c.json",
 					"name" : "USTHC_y2_labwork_01_e1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "USTHC_y2_labwork_01_e2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-USTHC_y2_labwork_01_e2-Debug-9bd499b26c95e658fbae.json",
+					"jsonFile" : "target-USTHC_y2_labwork_01_e2-Debug-f3991f052c4fc967f54a.json",
 					"name" : "USTHC_y2_labwork_01_e2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "USTHC_y2_labwork_01_e3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-USTHC_y2_labwork_01_e3-Debug-c0a395679240c5d340e9.json",
+					"jsonFile" : "target-USTHC_y2_labwork_01_e3-Debug-67fd5cef8e88ffb5643b.json",
 					"name" : "USTHC_y2_labwork_01_e3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USTHC_y2_labwork_02_e1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USTHC_y2_labwork_02_e1-Debug-40158a2280dc5ff986e8.json",
+					"name" : "USTHC_y2_labwork_02_e1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USTHC_y2_labwork_02_e2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USTHC_y2_labwork_02_e2-Debug-82c1517965d746aa5b02.json",
+					"name" : "USTHC_y2_labwork_02_e2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "USTHC_y2_labwork_02_e3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-USTHC_y2_labwork_02_e3-Debug-37ae8e9ee0491f395922.json",
+					"name" : "USTHC_y2_labwork_02_e3",
 					"projectIndex" : 0
 				}
 			]

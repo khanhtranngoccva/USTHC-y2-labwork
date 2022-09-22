@@ -154,6 +154,45 @@ USTHC_y2_labwork_01_e1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_01_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_01_e1.dir/build
 .PHONY : USTHC_y2_labwork_01_e1/fast
 
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e1
+
+# Build rule for target.
+USTHC_y2_labwork_02_e1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e1
+.PHONY : USTHC_y2_labwork_02_e1
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/build
+.PHONY : USTHC_y2_labwork_02_e1/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e2
+
+# Build rule for target.
+USTHC_y2_labwork_02_e2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e2
+.PHONY : USTHC_y2_labwork_02_e2
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e2.dir/build
+.PHONY : USTHC_y2_labwork_02_e2/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e3
+
+# Build rule for target.
+USTHC_y2_labwork_02_e3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e3
+.PHONY : USTHC_y2_labwork_02_e3
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e3.dir/build
+.PHONY : USTHC_y2_labwork_02_e3/fast
+
 01/ex1.obj: 01/ex1.cpp.obj
 .PHONY : 01/ex1.obj
 
@@ -226,6 +265,78 @@ USTHC_y2_labwork_01_e1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_01_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_01_e3.dir/01/ex3.cpp.s
 .PHONY : 01/ex3.cpp.s
 
+02/complex.obj: 02/complex.cpp.obj
+.PHONY : 02/complex.obj
+
+# target to build an object file
+02/complex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/complex.cpp.obj
+.PHONY : 02/complex.cpp.obj
+
+02/complex.i: 02/complex.cpp.i
+.PHONY : 02/complex.i
+
+# target to preprocess a source file
+02/complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/complex.cpp.i
+.PHONY : 02/complex.cpp.i
+
+02/complex.s: 02/complex.cpp.s
+.PHONY : 02/complex.s
+
+# target to generate assembly for a file
+02/complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/complex.cpp.s
+.PHONY : 02/complex.cpp.s
+
+02/dynamicList.obj: 02/dynamicList.cpp.obj
+.PHONY : 02/dynamicList.obj
+
+# target to build an object file
+02/dynamicList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e3.dir/02/dynamicList.cpp.obj
+.PHONY : 02/dynamicList.cpp.obj
+
+02/dynamicList.i: 02/dynamicList.cpp.i
+.PHONY : 02/dynamicList.i
+
+# target to preprocess a source file
+02/dynamicList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e3.dir/02/dynamicList.cpp.i
+.PHONY : 02/dynamicList.cpp.i
+
+02/dynamicList.s: 02/dynamicList.cpp.s
+.PHONY : 02/dynamicList.s
+
+# target to generate assembly for a file
+02/dynamicList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e3.dir/02/dynamicList.cpp.s
+.PHONY : 02/dynamicList.cpp.s
+
+02/list.obj: 02/list.cpp.obj
+.PHONY : 02/list.obj
+
+# target to build an object file
+02/list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e2.dir/02/list.cpp.obj
+.PHONY : 02/list.cpp.obj
+
+02/list.i: 02/list.cpp.i
+.PHONY : 02/list.i
+
+# target to preprocess a source file
+02/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e2.dir/02/list.cpp.i
+.PHONY : 02/list.cpp.i
+
+02/list.s: 02/list.cpp.s
+.PHONY : 02/list.s
+
+# target to generate assembly for a file
+02/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e2.dir/02/list.cpp.s
+.PHONY : 02/list.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,6 +348,9 @@ help:
 	@echo ... USTHC_y2_labwork_01_e1
 	@echo ... USTHC_y2_labwork_01_e2
 	@echo ... USTHC_y2_labwork_01_e3
+	@echo ... USTHC_y2_labwork_02_e1
+	@echo ... USTHC_y2_labwork_02_e2
+	@echo ... USTHC_y2_labwork_02_e3
 	@echo ... 01/ex1.obj
 	@echo ... 01/ex1.i
 	@echo ... 01/ex1.s
@@ -246,6 +360,15 @@ help:
 	@echo ... 01/ex3.obj
 	@echo ... 01/ex3.i
 	@echo ... 01/ex3.s
+	@echo ... 02/complex.obj
+	@echo ... 02/complex.i
+	@echo ... 02/complex.s
+	@echo ... 02/dynamicList.obj
+	@echo ... 02/dynamicList.i
+	@echo ... 02/dynamicList.s
+	@echo ... 02/list.obj
+	@echo ... 02/list.i
+	@echo ... 02/list.s
 .PHONY : help
 
 

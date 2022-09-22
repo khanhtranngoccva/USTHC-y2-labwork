@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=USTHC_y2_labwork_01_e3
+CMAKE_PROJECT_NAME:STATIC=USTHC_y2_labwork_02_e3
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/ranlib.exe
@@ -270,6 +270,33 @@ USTHC_y2_labwork_01_e3_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 USTHC_y2_labwork_01_e3_SOURCE_DIR:STATIC=C:/Projects/USTHC-y2-labwork
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e1_BINARY_DIR:STATIC=C:/Projects/USTHC-y2-labwork/cmake-build-debug
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e1_SOURCE_DIR:STATIC=C:/Projects/USTHC-y2-labwork
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e2_BINARY_DIR:STATIC=C:/Projects/USTHC-y2-labwork/cmake-build-debug
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e2_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e2_SOURCE_DIR:STATIC=C:/Projects/USTHC-y2-labwork
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e3_BINARY_DIR:STATIC=C:/Projects/USTHC-y2-labwork/cmake-build-debug
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e3_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+USTHC_y2_labwork_02_e3_SOURCE_DIR:STATIC=C:/Projects/USTHC-y2-labwork
 
 //Value Computed by CMake
 USTHC_y2_labwork_e1_c_BINARY_DIR:STATIC=C:/Projects/USTHC-y2-labwork/cmake-build-debug

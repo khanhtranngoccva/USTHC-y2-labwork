@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "USTHC_y2_labwork_01_e2.exe"
+			"path" : "USTHC_y2_labwork_01_e3.exe"
 		},
 		{
-			"path" : "USTHC_y2_labwork_01_e2.pdb"
+			"path" : "USTHC_y2_labwork_01_e3.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "USTHC_y2_labwork_01_e2::@6890427a1f51a3e7e1df",
+	"id" : "USTHC_y2_labwork_01_e3::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "USTHC_y2_labwork_01_e2",
-	"nameOnDisk" : "USTHC_y2_labwork_01_e2.exe",
+	"name" : "USTHC_y2_labwork_01_e3",
+	"nameOnDisk" : "USTHC_y2_labwork_01_e3.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "01/ex2.cpp",
+			"path" : "01/ex3.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
