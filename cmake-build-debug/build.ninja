@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: USTHC_y2_labwork_02_e4
+# Project: USTHC_y2_labwork_02_e5
 # Configurations: Debug
 # =============================================================================
 
@@ -154,12 +154,6 @@ build CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/complex.cpp.obj: CXX_COMPILER__US
   OBJECT_DIR = CMakeFiles\USTHC_y2_labwork_02_e1.dir
   OBJECT_FILE_DIR = CMakeFiles\USTHC_y2_labwork_02_e1.dir\02
 
-build CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/linkedList.cpp.obj: CXX_COMPILER__USTHC_y2_labwork_02_e1_Debug C$:/Programming/Projects/USTHC-y2-labwork/02/linkedList.cpp || cmake_object_order_depends_target_USTHC_y2_labwork_02_e1
-  DEP_FILE = CMakeFiles\USTHC_y2_labwork_02_e1.dir\02\linkedList.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\USTHC_y2_labwork_02_e1.dir
-  OBJECT_FILE_DIR = CMakeFiles\USTHC_y2_labwork_02_e1.dir\02
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target USTHC_y2_labwork_02_e1
@@ -168,7 +162,7 @@ build CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/linkedList.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable USTHC_y2_labwork_02_e1.exe
 
-build USTHC_y2_labwork_02_e1.exe: CXX_EXECUTABLE_LINKER__USTHC_y2_labwork_02_e1_Debug CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/complex.cpp.obj CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/linkedList.cpp.obj
+build USTHC_y2_labwork_02_e1.exe: CXX_EXECUTABLE_LINKER__USTHC_y2_labwork_02_e1_Debug CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/complex.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\USTHC_y2_labwork_02_e1.dir
@@ -277,6 +271,39 @@ build USTHC_y2_labwork_02_e4.exe: CXX_EXECUTABLE_LINKER__USTHC_y2_labwork_02_e4_
   TARGET_IMPLIB = libUSTHC_y2_labwork_02_e4.dll.a
   TARGET_PDB = USTHC_y2_labwork_02_e4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target USTHC_y2_labwork_02_e5
+
+
+#############################################
+# Order-only phony target for USTHC_y2_labwork_02_e5
+
+build cmake_object_order_depends_target_USTHC_y2_labwork_02_e5: phony || CMakeFiles/USTHC_y2_labwork_02_e5.dir
+
+build CMakeFiles/USTHC_y2_labwork_02_e5.dir/02/polynomial.cpp.obj: CXX_COMPILER__USTHC_y2_labwork_02_e5_Debug C$:/Programming/Projects/USTHC-y2-labwork/02/polynomial.cpp || cmake_object_order_depends_target_USTHC_y2_labwork_02_e5
+  DEP_FILE = CMakeFiles\USTHC_y2_labwork_02_e5.dir\02\polynomial.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\USTHC_y2_labwork_02_e5.dir
+  OBJECT_FILE_DIR = CMakeFiles\USTHC_y2_labwork_02_e5.dir\02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target USTHC_y2_labwork_02_e5
+
+
+#############################################
+# Link the executable USTHC_y2_labwork_02_e5.exe
+
+build USTHC_y2_labwork_02_e5.exe: CXX_EXECUTABLE_LINKER__USTHC_y2_labwork_02_e5_Debug CMakeFiles/USTHC_y2_labwork_02_e5.dir/02/polynomial.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\USTHC_y2_labwork_02_e5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = USTHC_y2_labwork_02_e5.exe
+  TARGET_IMPLIB = libUSTHC_y2_labwork_02_e5.dll.a
+  TARGET_PDB = USTHC_y2_labwork_02_e5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -317,6 +344,8 @@ build USTHC_y2_labwork_02_e3: phony USTHC_y2_labwork_02_e3.exe
 
 build USTHC_y2_labwork_02_e4: phony USTHC_y2_labwork_02_e4.exe
 
+build USTHC_y2_labwork_02_e5: phony USTHC_y2_labwork_02_e5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -325,7 +354,7 @@ build USTHC_y2_labwork_02_e4: phony USTHC_y2_labwork_02_e4.exe
 #############################################
 # Folder: C:/Programming/Projects/USTHC-y2-labwork/cmake-build-debug
 
-build all: phony USTHC_y2_labwork_01_e3.exe USTHC_y2_labwork_01_e2.exe USTHC_y2_labwork_01_e1.exe USTHC_y2_labwork_02_e1.exe USTHC_y2_labwork_02_e2.exe USTHC_y2_labwork_02_e3.exe USTHC_y2_labwork_02_e4.exe
+build all: phony USTHC_y2_labwork_01_e3.exe USTHC_y2_labwork_01_e2.exe USTHC_y2_labwork_01_e1.exe USTHC_y2_labwork_02_e1.exe USTHC_y2_labwork_02_e2.exe USTHC_y2_labwork_02_e3.exe USTHC_y2_labwork_02_e4.exe USTHC_y2_labwork_02_e5.exe
 
 # =============================================================================
 # Built-in targets
