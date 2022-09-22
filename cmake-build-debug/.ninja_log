@@ -1,19 +1,5 @@
 # ninja log v5
 0	71	6849527861811763	USTHC_y2_labwork.exe	e48c5522879270eb
-1	94	6849529081284723	build.ninja	f0c846e9c33e5da
-1	63	6849526153694658	CMakeFiles/USTHC_y2_labwork.dir/reference.cpp.obj	a3c72149d3c78367
-7	66	6849526153704655	CMakeFiles/USTHC_y2_labwork.dir/main.c.obj	87226acca89a6721
-0	57	6849528898282642	CMakeFiles/USTHC_y2_labwork_e1_c.dir/main.c.obj	99e3dd82a59f50cf
-58	128	6849528898976819	USTHC_y2_labwork_e1_c.exe	5dce28a06014bca1
-0	325	6849542408727681	CMakeFiles/USTHC_y2_labwork_e2_cpp.dir/reference.cpp.obj	ea6fc6459d1a9ab6
-326	404	6849542409527127	USTHC_y2_labwork_e2_cpp.exe	4b56bd2350666626
-2	328	6849542707554879	CMakeFiles/USTHC_y2_labwork_e2_cpp.dir/reference.cpp.obj	ea6fc6459d1a9ab6
-328	399	6849542708260873	USTHC_y2_labwork_e2_cpp.exe	4b56bd2350666626
-1	332	6849542830416609	CMakeFiles/USTHC_y2_labwork_e2_cpp.dir/reference.cpp.obj	ea6fc6459d1a9ab6
-333	405	6849542831142821	USTHC_y2_labwork_e2_cpp.exe	4b56bd2350666626
-2	327	6849542969450815	CMakeFiles/USTHC_y2_labwork_e2_cpp.dir/reference.cpp.obj	ea6fc6459d1a9ab6
-327	396	6849542970147007	USTHC_y2_labwork_e2_cpp.exe	4b56bd2350666626
-1	302	6849544247929184	CMakeFiles/USTHC_y2_labwork_e2_cpp.dir/reference.cpp.obj	ea6fc6459d1a9ab6
-302	375	6849544248654715	USTHC_y2_labwork_e2_cpp.exe	4b56bd2350666626
-1	292	6849544762318453	CMakeFiles/USTHC_y2_labwork_e2_cpp.dir/reference.cpp.obj	ea6fc6459d1a9ab6
+1	94	6855476245632211	build.ninja	f0c846e9c33e5da
 292	366	6849544763057218	USTHC_y2_labwork_e2_cpp.exe	4b56bd2350666626
+58	128	6849528898976819	USTHC_y2_labwork_e1_c.exe	5dce28a06014bca1

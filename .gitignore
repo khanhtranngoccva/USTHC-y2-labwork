@@ -32,3 +32,5 @@
 *.app
 
 .idea
+*.zip
+cmake-build-debug

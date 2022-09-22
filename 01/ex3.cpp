@@ -36,7 +36,14 @@ int findMaxOfArray(const int *a, int len) {
     return curMax;
 }
 
-
+/**
+ * Complexity: O(n).
+ *
+ * Pseudocode:
+ * 1. Declare array, assign it to array.
+ * 2. result = findMaxOfArray(array, length of array)
+ * 3. print result
+ */
 int main() {
     int array[] = {1, 9, 4, 6, 7};
     int result = findMaxOfArray(array, sizeof array / sizeof (int));

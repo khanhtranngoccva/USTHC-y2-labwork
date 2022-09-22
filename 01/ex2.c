@@ -74,7 +74,7 @@ void generate_sphenics(int n) {
 }
 
 int main() {
-    int k = 1000;
+    int k = 200;
     generate_sphenics(k);
     return 0;
 }
