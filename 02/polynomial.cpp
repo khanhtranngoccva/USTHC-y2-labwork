@@ -38,8 +38,8 @@ Polynomial removeTerm(Polynomial &polynomial, int degree) {
 void printPolynomial(Polynomial &polynomial) {
     bool isZeroOnly = true;
     bool isFirstTerm = true;
-    for (int i = 0; i < polynomial.maxTerms; i++) {
-        float curValue = polynomial.terms[i];
+    for (int i = polynomial.maxTerms - 1; i >= 0; i--) {
+        long double curValue = polynomial.terms[i];
         if (curValue != 0) {
             isZeroOnly = false;
             if (!isFirstTerm) {
@@ -48,8 +48,18 @@ void printPolynomial(Polynomial &polynomial) {
                 } else {
                     std::cout << " + ";
                 }
+            } else if (curValue < 0) {
+                std::cout << "-";
             }
-            std::cout << curValue;
+            if ((curValue == 1 || curValue == -1) && i >= 1) {
+
+            } else {
+                if (curValue < 0) {
+                    std::cout << -curValue;
+                } else {
+                    std::cout << curValue;
+                }
+            }
             if (i == 1) {
                 std::cout << "x";
             } else if (i > 1) {
@@ -74,11 +84,17 @@ long double computePolynomial(Polynomial &polynomial, long double x) {
 }
 
 int main() {
-    Polynomial y = createPolynomial(5);
-    setTerm(y, 0, 2);
-    setTerm(y, 1, 3);
-    setTerm(y, 2, 1);
-    printPolynomial(y);
-    std::cout << computePolynomial(y, 5) << std::endl;
+    Polynomial p = createPolynomial(5);
+
+    for (int x = -2; x <= 2; x++) {
+        for (int y = -2; y <= 2; y++) {
+            for (int z = -2; z <= 2; z++) {
+                setTerm(p, 0, x);
+                setTerm(p, 1, y);
+                setTerm(p, 2, z);
+                printPolynomial(p);
+            }
+        }
+    }
     return 0;
 }
