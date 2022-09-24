@@ -10,7 +10,7 @@ typedef struct Polynomial {
 
 Polynomial createPolynomial(int maxTerms) {
     Polynomial newPolynomial;
-    size_t allocatedSize = maxTerms * sizeof (long double);
+    size_t allocatedSize = maxTerms * sizeof(long double);
     newPolynomial.maxTerms = maxTerms;
     newPolynomial.terms = (long double *) malloc(allocatedSize);
     memset(newPolynomial.terms, 0, allocatedSize);

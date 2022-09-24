@@ -193,6 +193,58 @@ USTHC_y2_labwork_02_e3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e3.dir/build
 .PHONY : USTHC_y2_labwork_02_e3/fast
 
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e4
+
+# Build rule for target.
+USTHC_y2_labwork_02_e4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e4
+.PHONY : USTHC_y2_labwork_02_e4
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e4.dir/build
+.PHONY : USTHC_y2_labwork_02_e4/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e5
+
+# Build rule for target.
+USTHC_y2_labwork_02_e5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e5
+.PHONY : USTHC_y2_labwork_02_e5
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e5.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e5.dir/build
+.PHONY : USTHC_y2_labwork_02_e5/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e6
+
+# Build rule for target.
+USTHC_y2_labwork_02_e6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e6
+.PHONY : USTHC_y2_labwork_02_e6
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e6.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e6.dir/build
+.PHONY : USTHC_y2_labwork_02_e6/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_02_e7
+
+# Build rule for target.
+USTHC_y2_labwork_02_e7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_02_e7
+.PHONY : USTHC_y2_labwork_02_e7
+
+# fast build rule for target.
+USTHC_y2_labwork_02_e7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e7.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e7.dir/build
+.PHONY : USTHC_y2_labwork_02_e7/fast
+
 01/ex1.obj: 01/ex1.cpp.obj
 .PHONY : 01/ex1.obj
 
@@ -313,6 +365,81 @@ USTHC_y2_labwork_02_e3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e3.dir/02/dynamicList.cpp.s
 .PHONY : 02/dynamicList.cpp.s
 
+02/ex1.obj: 02/ex1.c.obj
+.PHONY : 02/ex1.obj
+
+# target to build an object file
+02/ex1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e6.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e6.dir/02/ex1.c.obj
+.PHONY : 02/ex1.c.obj
+
+02/ex1.i: 02/ex1.c.i
+.PHONY : 02/ex1.i
+
+# target to preprocess a source file
+02/ex1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e6.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e6.dir/02/ex1.c.i
+.PHONY : 02/ex1.c.i
+
+02/ex1.s: 02/ex1.c.s
+.PHONY : 02/ex1.s
+
+# target to generate assembly for a file
+02/ex1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e6.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e6.dir/02/ex1.c.s
+.PHONY : 02/ex1.c.s
+
+02/ex2.obj: 02/ex2.c.obj
+.PHONY : 02/ex2.obj
+
+# target to build an object file
+02/ex2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/ex2.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e7.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e7.dir/02/ex2.c.obj
+.PHONY : 02/ex2.c.obj
+
+02/ex2.i: 02/ex2.c.i
+.PHONY : 02/ex2.i
+
+# target to preprocess a source file
+02/ex2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/ex2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e7.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e7.dir/02/ex2.c.i
+.PHONY : 02/ex2.c.i
+
+02/ex2.s: 02/ex2.c.s
+.PHONY : 02/ex2.s
+
+# target to generate assembly for a file
+02/ex2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e1.dir/02/ex2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e7.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e7.dir/02/ex2.c.s
+.PHONY : 02/ex2.c.s
+
+02/linkedList.obj: 02/linkedList.cpp.obj
+.PHONY : 02/linkedList.obj
+
+# target to build an object file
+02/linkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e4.dir/02/linkedList.cpp.obj
+.PHONY : 02/linkedList.cpp.obj
+
+02/linkedList.i: 02/linkedList.cpp.i
+.PHONY : 02/linkedList.i
+
+# target to preprocess a source file
+02/linkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e4.dir/02/linkedList.cpp.i
+.PHONY : 02/linkedList.cpp.i
+
+02/linkedList.s: 02/linkedList.cpp.s
+.PHONY : 02/linkedList.s
+
+# target to generate assembly for a file
+02/linkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e4.dir/02/linkedList.cpp.s
+.PHONY : 02/linkedList.cpp.s
+
 02/list.obj: 02/list.cpp.obj
 .PHONY : 02/list.obj
 
@@ -337,6 +464,30 @@ USTHC_y2_labwork_02_e3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e2.dir/02/list.cpp.s
 .PHONY : 02/list.cpp.s
 
+02/polynomial.obj: 02/polynomial.cpp.obj
+.PHONY : 02/polynomial.obj
+
+# target to build an object file
+02/polynomial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e5.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e5.dir/02/polynomial.cpp.obj
+.PHONY : 02/polynomial.cpp.obj
+
+02/polynomial.i: 02/polynomial.cpp.i
+.PHONY : 02/polynomial.i
+
+# target to preprocess a source file
+02/polynomial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e5.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e5.dir/02/polynomial.cpp.i
+.PHONY : 02/polynomial.cpp.i
+
+02/polynomial.s: 02/polynomial.cpp.s
+.PHONY : 02/polynomial.s
+
+# target to generate assembly for a file
+02/polynomial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_02_e5.dir\build.make CMakeFiles/USTHC_y2_labwork_02_e5.dir/02/polynomial.cpp.s
+.PHONY : 02/polynomial.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -351,6 +502,10 @@ help:
 	@echo ... USTHC_y2_labwork_02_e1
 	@echo ... USTHC_y2_labwork_02_e2
 	@echo ... USTHC_y2_labwork_02_e3
+	@echo ... USTHC_y2_labwork_02_e4
+	@echo ... USTHC_y2_labwork_02_e5
+	@echo ... USTHC_y2_labwork_02_e6
+	@echo ... USTHC_y2_labwork_02_e7
 	@echo ... 01/ex1.obj
 	@echo ... 01/ex1.i
 	@echo ... 01/ex1.s
@@ -366,9 +521,21 @@ help:
 	@echo ... 02/dynamicList.obj
 	@echo ... 02/dynamicList.i
 	@echo ... 02/dynamicList.s
+	@echo ... 02/ex1.obj
+	@echo ... 02/ex1.i
+	@echo ... 02/ex1.s
+	@echo ... 02/ex2.obj
+	@echo ... 02/ex2.i
+	@echo ... 02/ex2.s
+	@echo ... 02/linkedList.obj
+	@echo ... 02/linkedList.i
+	@echo ... 02/linkedList.s
 	@echo ... 02/list.obj
 	@echo ... 02/list.i
 	@echo ... 02/list.s
+	@echo ... 02/polynomial.obj
+	@echo ... 02/polynomial.i
+	@echo ... 02/polynomial.s
 .PHONY : help
 
 
