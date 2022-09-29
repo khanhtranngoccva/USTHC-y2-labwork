@@ -82,4 +82,4 @@ int main() {
     guidedInsertComponent(&train);
     printTrain(&train);
     return 0;
-}
+}   
