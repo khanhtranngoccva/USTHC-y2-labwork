@@ -2,7 +2,7 @@
 using namespace std;
 
 // Array with 1001 elements, supporting up to 1000.
-bool primeCheckerArray[100];
+bool primeCheckerArray[1001];
 
 /**
  * Perform Eratosthenes's sieve on primeCheckerArray. Complexity: O(n ^ 2)
@@ -57,7 +57,7 @@ bool is_prime(int n) {
  *   else
  *    return false
  * pCount = 0
- * for i = 1; i < 8; i++
+ * for i = 1; i < fCount; i++
  *  if is_prime(f[i])
  *   pCount++
  * return pCount == 3
@@ -80,8 +80,11 @@ bool is_sphenic(int n) {
             }
         }
     }
+    if (fCount < 8) {
+        return false;
+    }
     int pCount = 0;
-    for (int i = 1; i < 8; i++) {
+    for (int i = 0; i < fCount; i++) {
         if (is_prime(f[i])) {
             pCount++;
         }
@@ -105,7 +108,7 @@ int main() {
     eratosthenes();
     int array_size = sizeof(primeCheckerArray);
     cout << "Sphenic numbers from 1 to " << array_size << ":" << endl;
-    for (int i = 1; i <= array_size; i++) {
+    for (int i = 1; i < array_size; i++) {
         if (is_sphenic(i)) {
             cout << i << " ";
         }

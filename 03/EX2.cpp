@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string>
 
+#define yeet throw
+
 typedef class Node Node;
 typedef class LinkedStack LinkedStack;
 
@@ -37,7 +39,7 @@ public:
 
     std::string pop() {
         if (this->length <= 0) {
-            throw std::exception();
+            yeet std::exception();
         }
         this->length--;
         Node* poppedNode = this->toUse;
@@ -49,7 +51,7 @@ public:
 
     std::string top() {
         if (this->length <= 0) {
-            throw std::exception();
+            yeet std::exception();
         }
         return this->toUse->data;
     }
@@ -143,6 +145,7 @@ int main() {
     std::cout << undoRedo.redoAction() << std::endl;
     undoRedo.displayUndo();
     undoRedo.displayRedo();
+    std::cout << undoRedo.redoAction() << std::endl;
     std::cout << undoRedo.redoAction() << std::endl;
 
     return 0;
