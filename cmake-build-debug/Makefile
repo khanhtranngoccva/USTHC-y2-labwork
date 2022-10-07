@@ -362,6 +362,58 @@ USTHC_y2_labwork_03_e8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_03_e8.dir\build.make CMakeFiles/USTHC_y2_labwork_03_e8.dir/build
 .PHONY : USTHC_y2_labwork_03_e8/fast
 
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_04_e1
+
+# Build rule for target.
+USTHC_y2_labwork_04_e1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_04_e1
+.PHONY : USTHC_y2_labwork_04_e1
+
+# fast build rule for target.
+USTHC_y2_labwork_04_e1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e1.dir/build
+.PHONY : USTHC_y2_labwork_04_e1/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_04_e2
+
+# Build rule for target.
+USTHC_y2_labwork_04_e2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_04_e2
+.PHONY : USTHC_y2_labwork_04_e2
+
+# fast build rule for target.
+USTHC_y2_labwork_04_e2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e2.dir/build
+.PHONY : USTHC_y2_labwork_04_e2/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_04_e3
+
+# Build rule for target.
+USTHC_y2_labwork_04_e3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_04_e3
+.PHONY : USTHC_y2_labwork_04_e3
+
+# fast build rule for target.
+USTHC_y2_labwork_04_e3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e3.dir/build
+.PHONY : USTHC_y2_labwork_04_e3/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_04_e4
+
+# Build rule for target.
+USTHC_y2_labwork_04_e4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_04_e4
+.PHONY : USTHC_y2_labwork_04_e4
+
+# fast build rule for target.
+USTHC_y2_labwork_04_e4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e4.dir/build
+.PHONY : USTHC_y2_labwork_04_e4/fast
+
 01/ex1.obj: 01/ex1.cpp.obj
 .PHONY : 01/ex1.obj
 
@@ -797,6 +849,102 @@ USTHC_y2_labwork_03_e8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_03_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_03_e1.dir/03/staticStack.cpp.s
 .PHONY : 03/staticStack.cpp.s
 
+04/EX1.obj: 04/EX1.cpp.obj
+.PHONY : 04/EX1.obj
+
+# target to build an object file
+04/EX1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e2.dir/04/EX1.cpp.obj
+.PHONY : 04/EX1.cpp.obj
+
+04/EX1.i: 04/EX1.cpp.i
+.PHONY : 04/EX1.i
+
+# target to preprocess a source file
+04/EX1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e2.dir/04/EX1.cpp.i
+.PHONY : 04/EX1.cpp.i
+
+04/EX1.s: 04/EX1.cpp.s
+.PHONY : 04/EX1.s
+
+# target to generate assembly for a file
+04/EX1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e2.dir/04/EX1.cpp.s
+.PHONY : 04/EX1.cpp.s
+
+04/EX2.obj: 04/EX2.cpp.obj
+.PHONY : 04/EX2.obj
+
+# target to build an object file
+04/EX2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e3.dir/04/EX2.cpp.obj
+.PHONY : 04/EX2.cpp.obj
+
+04/EX2.i: 04/EX2.cpp.i
+.PHONY : 04/EX2.i
+
+# target to preprocess a source file
+04/EX2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e3.dir/04/EX2.cpp.i
+.PHONY : 04/EX2.cpp.i
+
+04/EX2.s: 04/EX2.cpp.s
+.PHONY : 04/EX2.s
+
+# target to generate assembly for a file
+04/EX2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e3.dir/04/EX2.cpp.s
+.PHONY : 04/EX2.cpp.s
+
+04/EX3.obj: 04/EX3.cpp.obj
+.PHONY : 04/EX3.obj
+
+# target to build an object file
+04/EX3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e4.dir/04/EX3.cpp.obj
+.PHONY : 04/EX3.cpp.obj
+
+04/EX3.i: 04/EX3.cpp.i
+.PHONY : 04/EX3.i
+
+# target to preprocess a source file
+04/EX3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e4.dir/04/EX3.cpp.i
+.PHONY : 04/EX3.cpp.i
+
+04/EX3.s: 04/EX3.cpp.s
+.PHONY : 04/EX3.s
+
+# target to generate assembly for a file
+04/EX3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e4.dir/04/EX3.cpp.s
+.PHONY : 04/EX3.cpp.s
+
+04/recursion.obj: 04/recursion.cpp.obj
+.PHONY : 04/recursion.obj
+
+# target to build an object file
+04/recursion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e1.dir/04/recursion.cpp.obj
+.PHONY : 04/recursion.cpp.obj
+
+04/recursion.i: 04/recursion.cpp.i
+.PHONY : 04/recursion.i
+
+# target to preprocess a source file
+04/recursion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e1.dir/04/recursion.cpp.i
+.PHONY : 04/recursion.cpp.i
+
+04/recursion.s: 04/recursion.cpp.s
+.PHONY : 04/recursion.s
+
+# target to generate assembly for a file
+04/recursion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e1.dir/04/recursion.cpp.s
+.PHONY : 04/recursion.cpp.s
+
 test.obj: test.cpp.obj
 .PHONY : test.obj
 
@@ -851,6 +999,10 @@ help:
 	@echo ... USTHC_y2_labwork_03_e6
 	@echo ... USTHC_y2_labwork_03_e7
 	@echo ... USTHC_y2_labwork_03_e8
+	@echo ... USTHC_y2_labwork_04_e1
+	@echo ... USTHC_y2_labwork_04_e2
+	@echo ... USTHC_y2_labwork_04_e3
+	@echo ... USTHC_y2_labwork_04_e4
 	@echo ... 01/ex1.obj
 	@echo ... 01/ex1.i
 	@echo ... 01/ex1.s
@@ -905,6 +1057,18 @@ help:
 	@echo ... 03/staticStack.obj
 	@echo ... 03/staticStack.i
 	@echo ... 03/staticStack.s
+	@echo ... 04/EX1.obj
+	@echo ... 04/EX1.i
+	@echo ... 04/EX1.s
+	@echo ... 04/EX2.obj
+	@echo ... 04/EX2.i
+	@echo ... 04/EX2.s
+	@echo ... 04/EX3.obj
+	@echo ... 04/EX3.i
+	@echo ... 04/EX3.s
+	@echo ... 04/recursion.obj
+	@echo ... 04/recursion.i
+	@echo ... 04/recursion.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

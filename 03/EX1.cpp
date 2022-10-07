@@ -229,21 +229,5 @@ int main() {
     supermarket.dequeue();
     supermarket.displayStore();
 
-//    supermarket.enqueue(customer3);
-//    supermarket.enqueue(customer4);
-//    supermarket.enqueue(customer2);
-//    supermarket.enqueue(customer5);
-//    supermarket.displayQueue();
-//    supermarket.enqueue(customer3);
-//    supermarket2.enqueue(customer3);
-//    supermarket.displayQueue();
-//
-//
-//    supermarket.dequeue();
-//    supermarket.dequeue();
-//    supermarket.dequeue();
-//    supermarket.dequeue();
-//    supermarket.displayQueue();
-//    supermarket.dequeue();
     return 0;
 }
