@@ -414,6 +414,45 @@ USTHC_y2_labwork_04_e4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e4.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e4.dir/build
 .PHONY : USTHC_y2_labwork_04_e4/fast
 
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_05_e1
+
+# Build rule for target.
+USTHC_y2_labwork_05_e1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_05_e1
+.PHONY : USTHC_y2_labwork_05_e1
+
+# fast build rule for target.
+USTHC_y2_labwork_05_e1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e1.dir/build
+.PHONY : USTHC_y2_labwork_05_e1/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_05_e2
+
+# Build rule for target.
+USTHC_y2_labwork_05_e2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_05_e2
+.PHONY : USTHC_y2_labwork_05_e2
+
+# fast build rule for target.
+USTHC_y2_labwork_05_e2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e2.dir/build
+.PHONY : USTHC_y2_labwork_05_e2/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_05_e3
+
+# Build rule for target.
+USTHC_y2_labwork_05_e3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_05_e3
+.PHONY : USTHC_y2_labwork_05_e3
+
+# fast build rule for target.
+USTHC_y2_labwork_05_e3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e3.dir/build
+.PHONY : USTHC_y2_labwork_05_e3/fast
+
 01/ex1.obj: 01/ex1.cpp.obj
 .PHONY : 01/ex1.obj
 
@@ -945,6 +984,78 @@ USTHC_y2_labwork_04_e4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_04_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_04_e1.dir/04/recursion.cpp.s
 .PHONY : 04/recursion.cpp.s
 
+05/EX1.obj: 05/EX1.cpp.obj
+.PHONY : 05/EX1.obj
+
+# target to build an object file
+05/EX1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e3.dir/05/EX1.cpp.obj
+.PHONY : 05/EX1.cpp.obj
+
+05/EX1.i: 05/EX1.cpp.i
+.PHONY : 05/EX1.i
+
+# target to preprocess a source file
+05/EX1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e3.dir/05/EX1.cpp.i
+.PHONY : 05/EX1.cpp.i
+
+05/EX1.s: 05/EX1.cpp.s
+.PHONY : 05/EX1.s
+
+# target to generate assembly for a file
+05/EX1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e3.dir/05/EX1.cpp.s
+.PHONY : 05/EX1.cpp.s
+
+05/binSearch.obj: 05/binSearch.cpp.obj
+.PHONY : 05/binSearch.obj
+
+# target to build an object file
+05/binSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e1.dir/05/binSearch.cpp.obj
+.PHONY : 05/binSearch.cpp.obj
+
+05/binSearch.i: 05/binSearch.cpp.i
+.PHONY : 05/binSearch.i
+
+# target to preprocess a source file
+05/binSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e1.dir/05/binSearch.cpp.i
+.PHONY : 05/binSearch.cpp.i
+
+05/binSearch.s: 05/binSearch.cpp.s
+.PHONY : 05/binSearch.s
+
+# target to generate assembly for a file
+05/binSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e1.dir/05/binSearch.cpp.s
+.PHONY : 05/binSearch.cpp.s
+
+05/sort.obj: 05/sort.cpp.obj
+.PHONY : 05/sort.obj
+
+# target to build an object file
+05/sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e2.dir/05/sort.cpp.obj
+.PHONY : 05/sort.cpp.obj
+
+05/sort.i: 05/sort.cpp.i
+.PHONY : 05/sort.i
+
+# target to preprocess a source file
+05/sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e2.dir/05/sort.cpp.i
+.PHONY : 05/sort.cpp.i
+
+05/sort.s: 05/sort.cpp.s
+.PHONY : 05/sort.s
+
+# target to generate assembly for a file
+05/sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e2.dir/05/sort.cpp.s
+.PHONY : 05/sort.cpp.s
+
 test.obj: test.cpp.obj
 .PHONY : test.obj
 
@@ -1003,6 +1114,9 @@ help:
 	@echo ... USTHC_y2_labwork_04_e2
 	@echo ... USTHC_y2_labwork_04_e3
 	@echo ... USTHC_y2_labwork_04_e4
+	@echo ... USTHC_y2_labwork_05_e1
+	@echo ... USTHC_y2_labwork_05_e2
+	@echo ... USTHC_y2_labwork_05_e3
 	@echo ... 01/ex1.obj
 	@echo ... 01/ex1.i
 	@echo ... 01/ex1.s
@@ -1069,6 +1183,15 @@ help:
 	@echo ... 04/recursion.obj
 	@echo ... 04/recursion.i
 	@echo ... 04/recursion.s
+	@echo ... 05/EX1.obj
+	@echo ... 05/EX1.i
+	@echo ... 05/EX1.s
+	@echo ... 05/binSearch.obj
+	@echo ... 05/binSearch.i
+	@echo ... 05/binSearch.s
+	@echo ... 05/sort.obj
+	@echo ... 05/sort.i
+	@echo ... 05/sort.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
