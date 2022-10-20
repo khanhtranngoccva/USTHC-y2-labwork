@@ -24,6 +24,7 @@ project(USTHC_y2_labwork_04_e4)
 project(USTHC_y2_labwork_05_e1)
 project(USTHC_y2_labwork_05_e2)
 project(USTHC_y2_labwork_05_e3)
+project(USTHC_y2_labwork_06_e1)
 
 
 set(CMAKE_CXX_STANDARD 23)
@@ -54,3 +55,4 @@ add_executable(USTHC_y2_labwork_04_e4 04/EX3.cpp)
 add_executable(USTHC_y2_labwork_05_e1 05/binSearch.cpp)
 add_executable(USTHC_y2_labwork_05_e2 05/sort.cpp)
 add_executable(USTHC_y2_labwork_05_e3 05/EX1.cpp)
+add_executable(USTHC_y2_labwork_06_e1 06/binSearchTree.cpp)

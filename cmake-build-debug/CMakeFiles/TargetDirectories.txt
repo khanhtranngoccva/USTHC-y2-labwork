@@ -24,5 +24,6 @@ C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/USTHC_y2_labwork_04_e4
 C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/USTHC_y2_labwork_05_e1.dir
 C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/USTHC_y2_labwork_05_e2.dir
 C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/USTHC_y2_labwork_05_e3.dir
+C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/USTHC_y2_labwork_06_e1.dir
 C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Projects/USTHC-y2-labwork/cmake-build-debug/CMakeFiles/rebuild_cache.dir

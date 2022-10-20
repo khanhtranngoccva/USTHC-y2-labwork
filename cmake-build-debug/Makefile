@@ -453,6 +453,19 @@ USTHC_y2_labwork_05_e3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e3.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e3.dir/build
 .PHONY : USTHC_y2_labwork_05_e3/fast
 
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_06_e1
+
+# Build rule for target.
+USTHC_y2_labwork_06_e1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_06_e1
+.PHONY : USTHC_y2_labwork_06_e1
+
+# fast build rule for target.
+USTHC_y2_labwork_06_e1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_06_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_06_e1.dir/build
+.PHONY : USTHC_y2_labwork_06_e1/fast
+
 01/ex1.obj: 01/ex1.cpp.obj
 .PHONY : 01/ex1.obj
 
@@ -1056,6 +1069,30 @@ USTHC_y2_labwork_05_e3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_05_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_05_e2.dir/05/sort.cpp.s
 .PHONY : 05/sort.cpp.s
 
+06/binSearchTree.obj: 06/binSearchTree.cpp.obj
+.PHONY : 06/binSearchTree.obj
+
+# target to build an object file
+06/binSearchTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_06_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_06_e1.dir/06/binSearchTree.cpp.obj
+.PHONY : 06/binSearchTree.cpp.obj
+
+06/binSearchTree.i: 06/binSearchTree.cpp.i
+.PHONY : 06/binSearchTree.i
+
+# target to preprocess a source file
+06/binSearchTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_06_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_06_e1.dir/06/binSearchTree.cpp.i
+.PHONY : 06/binSearchTree.cpp.i
+
+06/binSearchTree.s: 06/binSearchTree.cpp.s
+.PHONY : 06/binSearchTree.s
+
+# target to generate assembly for a file
+06/binSearchTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_06_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_06_e1.dir/06/binSearchTree.cpp.s
+.PHONY : 06/binSearchTree.cpp.s
+
 test.obj: test.cpp.obj
 .PHONY : test.obj
 
@@ -1117,6 +1154,7 @@ help:
 	@echo ... USTHC_y2_labwork_05_e1
 	@echo ... USTHC_y2_labwork_05_e2
 	@echo ... USTHC_y2_labwork_05_e3
+	@echo ... USTHC_y2_labwork_06_e1
 	@echo ... 01/ex1.obj
 	@echo ... 01/ex1.i
 	@echo ... 01/ex1.s
@@ -1192,6 +1230,9 @@ help:
 	@echo ... 05/sort.obj
 	@echo ... 05/sort.i
 	@echo ... 05/sort.s
+	@echo ... 06/binSearchTree.obj
+	@echo ... 06/binSearchTree.i
+	@echo ... 06/binSearchTree.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
