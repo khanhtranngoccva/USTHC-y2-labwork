@@ -105,8 +105,4 @@ int main() {
     tree->displayLNR();
     tree->displayLRN();
     return 0;
-}if (this->left == nullptr) {
-this->left = new BinarySearchTree(value);
-} else {
-this->left->insert(value);
 }
