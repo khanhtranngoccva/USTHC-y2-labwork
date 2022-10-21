@@ -89,18 +89,12 @@ public:
 };
 
 int main() {
-    auto tree = new BinarySearchTree(8,
-                                     new BinarySearchTree(4,
-                                                          new BinarySearchTree(2,
-                                                                               nullptr,
-                                                                               new BinarySearchTree(3)),
-                                                          new BinarySearchTree(5,
-                                                                               nullptr,
-                                                                               new BinarySearchTree(7))));
-    tree->right = new BinarySearchTree(12,
-                                       new BinarySearchTree(9, nullptr, new BinarySearchTree(10)),
-                                       new BinarySearchTree(14, new BinarySearchTree(13)));
+    auto tree = new BinarySearchTree(2);
+    tree->insert(7);
+    tree->insert(8);
     tree->insert(20);
+    tree->insert(41);
+    tree->insert(42);
     tree->displayNLR();
     tree->displayLNR();
     tree->displayLRN();

@@ -106,7 +106,7 @@ private:
         }
     }
 
-    [[nodiscard]] int _propagateTreeUp() {
+    int _propagateTreeUp() {
         if (this->left == nullptr && this->right == nullptr) {
             return this->data;
         } else if (this->left == nullptr) {
@@ -149,7 +149,7 @@ public:
 
     [[nodiscard]] static BinaryTree *createBinaryTreeFromList(List *list) {
         // Create a new tree, and then pass the pointer recursively into the new tree.
-        int depth = (int) floor(log2(double(list->length()))) + 1;
+        int depth = (int) ceil(log2(double(list->length())));
         auto curTree = createEmptyBinaryTree(depth);
         curTree->_populateTreeWithList(list);
         curTree->_propagateTreeUp();
@@ -217,7 +217,6 @@ public:
             success = true;
         }
         if (success && _root) {
-            std::cout << success << std::endl;
             this->_propagateTreeUp();
         }
         return success;
@@ -226,12 +225,7 @@ public:
 
 
 int main() {
-    auto list = new List(7);
-    list->push(8);
-    list->push(20);
-    list->push(41);
-    list->push(7);
-    list->push(2);
+    auto list = List::generateList(128);
 
     auto tree = BinaryTree::createBinaryTreeFromList(list);
     tree->insert(5);
