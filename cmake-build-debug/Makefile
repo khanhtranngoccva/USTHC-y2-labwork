@@ -479,6 +479,32 @@ USTHC_y2_labwork_06_e2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_06_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_06_e2.dir/build
 .PHONY : USTHC_y2_labwork_06_e2/fast
 
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_review_e1
+
+# Build rule for target.
+USTHC_y2_labwork_review_e1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_review_e1
+.PHONY : USTHC_y2_labwork_review_e1
+
+# fast build rule for target.
+USTHC_y2_labwork_review_e1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e1.dir/build
+.PHONY : USTHC_y2_labwork_review_e1/fast
+
+#=============================================================================
+# Target rules for targets named USTHC_y2_labwork_review_e2
+
+# Build rule for target.
+USTHC_y2_labwork_review_e2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 USTHC_y2_labwork_review_e2
+.PHONY : USTHC_y2_labwork_review_e2
+
+# fast build rule for target.
+USTHC_y2_labwork_review_e2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/build
+.PHONY : USTHC_y2_labwork_review_e2/fast
+
 01/ex1.obj: 01/ex1.cpp.obj
 .PHONY : 01/ex1.obj
 
@@ -1130,6 +1156,78 @@ USTHC_y2_labwork_06_e2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_06_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_06_e1.dir/06/binSearchTree.cpp.s
 .PHONY : 06/binSearchTree.cpp.s
 
+review/DynamicList.obj: review/DynamicList.cpp.obj
+.PHONY : review/DynamicList.obj
+
+# target to build an object file
+review/DynamicList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/review/DynamicList.cpp.obj
+.PHONY : review/DynamicList.cpp.obj
+
+review/DynamicList.i: review/DynamicList.cpp.i
+.PHONY : review/DynamicList.i
+
+# target to preprocess a source file
+review/DynamicList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/review/DynamicList.cpp.i
+.PHONY : review/DynamicList.cpp.i
+
+review/DynamicList.s: review/DynamicList.cpp.s
+.PHONY : review/DynamicList.s
+
+# target to generate assembly for a file
+review/DynamicList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/review/DynamicList.cpp.s
+.PHONY : review/DynamicList.cpp.s
+
+review/PrimeFactorization.obj: review/PrimeFactorization.cpp.obj
+.PHONY : review/PrimeFactorization.obj
+
+# target to build an object file
+review/PrimeFactorization.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/review/PrimeFactorization.cpp.obj
+.PHONY : review/PrimeFactorization.cpp.obj
+
+review/PrimeFactorization.i: review/PrimeFactorization.cpp.i
+.PHONY : review/PrimeFactorization.i
+
+# target to preprocess a source file
+review/PrimeFactorization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/review/PrimeFactorization.cpp.i
+.PHONY : review/PrimeFactorization.cpp.i
+
+review/PrimeFactorization.s: review/PrimeFactorization.cpp.s
+.PHONY : review/PrimeFactorization.s
+
+# target to generate assembly for a file
+review/PrimeFactorization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e2.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e2.dir/review/PrimeFactorization.cpp.s
+.PHONY : review/PrimeFactorization.cpp.s
+
+review/main.obj: review/main.cpp.obj
+.PHONY : review/main.obj
+
+# target to build an object file
+review/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e1.dir/review/main.cpp.obj
+.PHONY : review/main.cpp.obj
+
+review/main.i: review/main.cpp.i
+.PHONY : review/main.i
+
+# target to preprocess a source file
+review/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e1.dir/review/main.cpp.i
+.PHONY : review/main.cpp.i
+
+review/main.s: review/main.cpp.s
+.PHONY : review/main.s
+
+# target to generate assembly for a file
+review/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\USTHC_y2_labwork_review_e1.dir\build.make CMakeFiles/USTHC_y2_labwork_review_e1.dir/review/main.cpp.s
+.PHONY : review/main.cpp.s
+
 test.obj: test.cpp.obj
 .PHONY : test.obj
 
@@ -1193,6 +1291,8 @@ help:
 	@echo ... USTHC_y2_labwork_05_e3
 	@echo ... USTHC_y2_labwork_06_e1
 	@echo ... USTHC_y2_labwork_06_e2
+	@echo ... USTHC_y2_labwork_review_e1
+	@echo ... USTHC_y2_labwork_review_e2
 	@echo ... 01/ex1.obj
 	@echo ... 01/ex1.i
 	@echo ... 01/ex1.s
@@ -1274,6 +1374,15 @@ help:
 	@echo ... 06/binSearchTree.obj
 	@echo ... 06/binSearchTree.i
 	@echo ... 06/binSearchTree.s
+	@echo ... review/DynamicList.obj
+	@echo ... review/DynamicList.i
+	@echo ... review/DynamicList.s
+	@echo ... review/PrimeFactorization.obj
+	@echo ... review/PrimeFactorization.i
+	@echo ... review/PrimeFactorization.s
+	@echo ... review/main.obj
+	@echo ... review/main.i
+	@echo ... review/main.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

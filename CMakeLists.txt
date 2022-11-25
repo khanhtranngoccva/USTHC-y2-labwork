@@ -26,7 +26,7 @@ project(USTHC_y2_labwork_05_e2)
 project(USTHC_y2_labwork_05_e3)
 project(USTHC_y2_labwork_06_e1)
 project(USTHC_y2_labwork_06_e2)
-
+project(USTHC_y2_labwork_review_e1)
 
 set(CMAKE_CXX_STANDARD 23)
 
@@ -58,3 +58,5 @@ add_executable(USTHC_y2_labwork_05_e2 05/sort.cpp)
 add_executable(USTHC_y2_labwork_05_e3 05/EX1.cpp)
 add_executable(USTHC_y2_labwork_06_e1 06/binSearchTree.cpp)
 add_executable(USTHC_y2_labwork_06_e2 06/EX1.cpp)
+add_executable(USTHC_y2_labwork_review_e1 review/main.cpp)
+add_executable(USTHC_y2_labwork_review_e2 review/DynamicList.cpp review/PrimeFactorization.cpp review/DynamicList.hpp)

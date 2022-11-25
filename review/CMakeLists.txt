@@ -1,0 +1,3 @@
+project(primeFactorization)
+
+add_executable(primeFactorization primeFactorization.cpp DynamicList.cpp)
